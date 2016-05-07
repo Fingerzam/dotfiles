@@ -1,0 +1,4 @@
+partial alphanumeric_keys xkb_symbols "chromebookCtrlCapslock" {
+    key <LWIN> { [ Control_L ] };
+    modifier_map  Control { <LWIN> };
+};
