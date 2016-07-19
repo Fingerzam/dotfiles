@@ -11,6 +11,24 @@ Plug 'eagletmt/neco-ghc', {'for': 'haskell' }
 Plug 'raichoo/purescript-vim'
 Plug 'frigoeu/psc-ide-vim'
 
+"Git
+Plug 'tpope/vim-fugitive'
+
+"Clojure
+Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-salve'
+
+"Lisp syntax
+Plug 'guns/vim-sexp'
+Plug 'tpope/vim-sexp-mappings-for-regular-people'
+
+"General purpose plugins
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-dispatch'
+Plug 'radenling/vim-dispatch-neovim'
+Plug 'tpope/vim-projectionist'
+Plug 'Raimondi/delimitMate'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/syntastic'
@@ -54,7 +72,7 @@ let mapleader = " "
 
 set cmdheight=1
 
-set background=dark
+set background=light
 colorscheme solarized
 
 map <Leader>s :SyntasticToggleMode<CR>
