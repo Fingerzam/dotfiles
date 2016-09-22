@@ -25,6 +25,7 @@ Plug 'tpope/vim-sexp-mappings-for-regular-people'
 "General purpose plugins
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-dispatch'
 Plug 'radenling/vim-dispatch-neovim'
 Plug 'tpope/vim-projectionist'
