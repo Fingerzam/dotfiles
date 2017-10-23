@@ -1,0 +1,1 @@
+/home/fingerzam/.config/fisherman/z/conf.d/z.fish
