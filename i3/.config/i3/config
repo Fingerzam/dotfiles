@@ -10,7 +10,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 exec "setxkbmap fi -option ctrl:nocaps"
-exec "xinput --set-prop 'SynPS/2 Synaptics TouchPad' 'libinput Natural Scrolling Enabled' 1"
+exec "xinput --set-prop 'Synaptics TM3289-002' 'libinput Natural Scrolling Enabled' 1"
 
 set $mod Mod4
 
@@ -40,6 +40,8 @@ bindsym $mod+Shift+Return exec emacsclient -c
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+bindsym Print exec spectacle
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec /nix/store/qrc5fm5z1pki25mcdw4kmnx8s9zqqn8v-dmenu-4.6/bin/dmenu_run
