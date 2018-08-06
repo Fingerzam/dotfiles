@@ -10,7 +10,10 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 exec "setxkbmap fi -option ctrl:nocaps"
+# use xinput to enable natural scrolling
 exec "xinput --set-prop 'Synaptics TM3289-002' 'libinput Natural Scrolling Enabled' 1"
+# start gnome-screensaver so that screen locking works
+exec "gnome-screensaves"
 
 set $mod Mod4
 
